@@ -23,4 +23,4 @@
 - A police car appears behind, and the player must take the next red token. If you ignore: −50% speed.
 - The brightness decreases under 50%. All tokens become Yellow until the light is turned ON. While light ON, green tokens increase speed by +5% instead.
 
-*[Watch Phase 1 Demo](../Phase_1_game.mp4)*
+![Phase 1 Demo](../Phase_1_game.gif)
