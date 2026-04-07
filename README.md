@@ -14,7 +14,7 @@ This lab introduces core principles of Real-Time Systems Engineering through a h
 ---
 
 ## Phase 1
-*[Link to demo video]*
+*[Watch Phase 1 Demo](./Phase_1_game.mp4)*
 
 ### Technical Setup
 - How to control the Unity environment using the Python communication script
@@ -42,7 +42,7 @@ This lab introduces core principles of Real-Time Systems Engineering through a h
 ---
 
 ## Phase 2
-*[Link to demo video]*
+*[Watch Phase 2 Demo](./Phase_2_game.mp4)*
 
 ### Technical Setup
 - Introduction to self-driving

@@ -18,4 +18,4 @@ Cars start with 5 health points (HP). Each violation results in −1 HP.
 - Not giving priority to a police car
 - Ignoring police officer signals
 
-*[Link to demo video]*
+*[Watch Phase 2 Demo](../Phase_2_game.mp4)*
