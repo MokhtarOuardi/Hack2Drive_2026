@@ -1,8 +1,21 @@
-# RTSE Phase 2: Simulation and External Testing
+# Hack2Drive 2026 - Phase 2
 
-This phase encompasses the testing utilities, external simulations, and cross-application control logic for the project.
+## Technical Setup
+- Introduction to self-driving
+- Explaining Behavioural Cloning
 
-## Core Features
-- **TCP Image Streaming:** Designed to ingest rear-view or visual camera data directly from Phase 1.
-- **Python-Unity Communication Interfaces:** Automated scripts testing command integration between layers.
-- **Real-Time Validation:** Scripts tailored for telemetry scraping, simulated driving workloads, and logic verification.
+## Game Rules
+**Objective:** Navigate from Point A to Point B safely and efficiently.
+
+### Health System
+Cars start with 5 health points (HP). Each violation results in −1 HP.
+
+### Violations
+- Collision with obstacle/NPC
+- Running a red light
+- Ignoring a stop sign
+- Not stopping for pedestrians at crossings
+- Not giving priority to a police car
+- Ignoring police officer signals
+
+*[Link to demo video]*

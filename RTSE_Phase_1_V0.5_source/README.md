@@ -1,10 +1,26 @@
-# RTSE Phase 1: Game Engine and Simulation Core
+# Hack2Drive 2026 - Phase 1
 
-This phase contains the original 2D racing code, now evolved into a robust pseudo-3D simulation engine for the RTSE 2026 project.
+## Technical Setup
+- How to control the Unity environment using the Python communication script
+- How to train / use a small YOLO model
+- How to use simple computer vision algos (OpenCV)
 
-## Core Features
-- **Pseudo-3D Background Engine:** Dynamic track visualization.
-- **HQ Scene Token Spawning system:** Time-based, clustered spawning logic, acting independently of the background engine.
-- **Live Telemetry HUD:** On-screen tracking of speed, distance, elapsed time, and rendered tokens.
-- **Standby UI Module:** "Waiting for Command" system overlay upon boot up.
-- **Rear Sensor View:** Secondary camera rendering via TCP for simulated external processing.
+## Game Rules
+**Objective:** 60 seconds to travel the furthest distance.
+
+### Tokens & Effects
+- **Green Token:** Increase speed by +10%
+- **Red Token:** Decrease speed by −20%
+- **Yellow Token:**
+  - 20% = Next token type / color hidden
+  - 20% = Next 5 seconds, tokens become invisible
+  - 20% = Next 5 seconds, camera input delay
+  - 20% = Next 5 seconds, action output delay
+  - 20% = Next 5 seconds, corrupted camera input
+
+### Events
+- A faster car appears behind, and the player must switch lanes. On collision: −50% speed.
+- A police car appears behind, and the player must take the next red token. If you ignore: −50% speed.
+- The brightness decreases under 50%. All tokens become Yellow until the light is turned ON. While light ON, green tokens increase speed by +5% instead.
+
+*[Link to demo video]*
